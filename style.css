@@ -353,7 +353,7 @@ a:active {
 .work-experience-section a,
 .work-experience-section a:visited {
     color: #1282A2;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .work-experience-section a:hover {
