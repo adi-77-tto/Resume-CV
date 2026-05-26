@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;    margin: 0;
+    padding: 0;}
+
+.container {
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.25in;
+    background-color: white;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: none;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    color: #000;
+    margin-bottom: 1px;
+    margin-top: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Georgia', serif;
+}
+
+.contact-info {
+    font-size: 0.95em;
+    color: #0052cc;
+    line-height: 1.5;
+    font-family: 'Georgia', serif !important;
+    letter-spacing: 0.3px;
+}
+
+.contact-row {
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #0052cc;
+    text-decoration: none;
+    margin: 0 3px;
+    font-family: 'Georgia', serif;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.contact-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 10px;
+}
+
+.section h2 {
+    font-size: 1.1em;
+    color: #000;
+    margin-bottom: 6px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Georgia', serif;
+}
+
+/* Entry Styling */
+.entry {
+    margin-bottom: 8px;
+    padding-left: 0;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 6px;
+    margin-bottom: 1px;
+}
+
+.entry h3 {
+    font-size: 1em;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #000;
+    font-style: italic;
+    margin-left: auto;
+}
+
+.tech-stack {
+    font-size: 0.85em;
+    color: #000;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    margin-left: 0;
+    font-style: italic;
+}
+
+.institution {
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 0.95em;
+}
+
+.company {
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 3px;
+    font-size: 0.95em;
+}
+
+.details {
+    color: #000;
+    margin-top: 0;
+    font-size: 0.9em;
+}
+
+.entry p {
+    color: #000;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.entry ul {
+    margin-left: 25px;
+    color: #000;
+}
+
+.entry ul li {
+    margin-bottom: 2px;
+    line-height: 1.4;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+/* Summary Section */
+.section p {
+    color: #000;
+    line-height: 1.5;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.skill-category {
+    background-color: transparent;
+    padding: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.skill-category strong {
+    display: block;
+    color: #000;
+    margin-bottom: 1px;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.skill-category p {
+    color: #000;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+/* Awards List */
+.awards-list {
+    margin-left: 25px;
+    color: #000;
+}
+
+.awards-list li {
+    margin-bottom: 2px;
+    line-height: 1.4;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+/* Judge Table */
+.judge-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 0.9em;
+}
+
+.judge-table th {
+    background-color: #f5f5f5;
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: left;
+    font-weight: 700;
+    color: #000;
+}
+
+.judge-table td {
+    border: 1px solid #000;
+    padding: 5px;
+    color: #000;
+    text-align: left;
+}
+
+.judge-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.table-list {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.table-list li {
+    margin-bottom: 1px;
+    line-height: 1.3;
+}
+
+/* Position List */
+.position-list {
+    margin-left: 25px;
+    color: #000;
+}
+
+.position-list li {
+    margin-bottom: 3px;
+    line-height: 1.4;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.date-inline {
+    float: right;
+    font-style: italic;
+    color: #000;
+}
+
+/* References Section */
+.references-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 8px;
+}
+
+.reference-item {
+    flex: 1;
+}
+
+.reference-name {
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1px;
+    font-size: 0.95em;
+}
+
+.reference-detail {
+    color: #000;
+    margin-bottom: 1px;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Project Link */
+.project-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: underline;
+    font-size: 0.85em;
+    margin-top: 3px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #000;
+    color: #000;
+    font-size: 0.8em;
+    display: none;
+}
+
+/* Work Experience Page Break */
+.work-experience-section {
+    page-break-before: always;
+}
+
+/* Responsive Design */
+@media print {
+    body {
+        background-color: white;
+    }
+
+    .container {
+        box-shadow: none;
+        max-width: 100%;
+        padding: 0.5in;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .contact-info {
+        font-size: 0.8em;
+    }
+
+    .entry-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .date,
+    .tech-stack {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section h2 {
+        font-size: 1em;
+    }
+}
