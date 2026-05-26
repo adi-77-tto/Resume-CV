@@ -11,6 +11,18 @@ body {
     background-color: #fff;    margin: 0;
     padding: 0;}
 
+a,
+a:visited {
+    color: #1282A2;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #1282A2;
+    text-decoration: none;
+}
+
 .container {
     max-width: 8.5in;
     margin: 0 auto;
@@ -38,7 +50,7 @@ body {
 
 .contact-info {
     font-size: 0.95em;
-    color: #0052cc;
+    color: #1282A2;
     line-height: 1.5;
     font-family: 'Georgia', serif !important;
     letter-spacing: 0.3px;
@@ -50,14 +62,14 @@ body {
 }
 
 .contact-info a {
-    color: #0052cc;
+    color: #1282A2;
     text-decoration: none;
     margin: 0 3px;
     font-family: 'Georgia', serif;
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .logo {
@@ -336,6 +348,16 @@ body {
 /* Work Experience Page Break */
 .work-experience-section {
     page-break-before: always;
+}
+
+.work-experience-section a,
+.work-experience-section a:visited {
+    color: #1282A2;
+    text-decoration: underline;
+}
+
+.work-experience-section a:hover {
+    color: #1282A2;
 }
 
 /* Responsive Design */
