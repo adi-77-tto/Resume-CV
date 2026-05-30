@@ -8,8 +8,10 @@ body {
     font-family: 'Georgia', 'Times New Roman', serif;
     line-height: 1.5;
     color: #000;
-    background-color: #fff;    margin: 0;
-    padding: 0;}
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
 
 a,
 a:visited {
@@ -86,6 +88,11 @@ a:active {
     margin-right: 4px;
     vertical-align: middle;
     display: inline-block;
+}
+
+.domain-icon {
+    height: 16px;
+    width: 16px;
 }
 
 /* Section Styling */
